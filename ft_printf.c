@@ -6,7 +6,7 @@
 /*   By: benny <benny@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 01:10:36 by benny             #+#    #+#             */
-/*   Updated: 2023/11/21 01:48:54 by benny            ###   ########.fr       */
+/*   Updated: 2023/11/23 04:59:09 by benny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,6 @@ int	formater(char *f, va_list d)
 		ft_putchar('%');
 	return (1);
 }
-
 
 int	ft_printf(const char *format, ...)
 {
